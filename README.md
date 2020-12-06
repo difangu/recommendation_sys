@@ -27,7 +27,6 @@ System I - Vote Count is another content-based filtering method. Here i define t
 * Training and Testing: I split training and testing by 80/20 and iterate the simulation 10 times. From the simulation, we will know more about the performance of each model. 
 * Metric: in the simulation, i used RMSE to compare different models, and it will be shown in a dataframe. 
 
-Credits:
-My thanks go to the following persons:
+### Credits:
 1. Professor Liang Feng 
 2. [pspachtholz BookRecommender](https://github.com/pspachtholz/BookRecommender)
