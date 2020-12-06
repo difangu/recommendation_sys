@@ -29,7 +29,5 @@ System I - Vote Count is another content-based filtering method. Here i define t
 
 Credits:
 My thanks go to the following persons:
-1. Stefan Nicklic for his [improved implementation of collaborative filtering](https://github.com/smartcat-labs/collaboratory).
-2. Stefan Wilhelm for providing [ShinyRatingInput](https://github.com/stefanwilhelm/ShinyRatingInput).
-3. Dean Attali for his work on [shinyJS](https://github.com/daattali/shinyjs).
-4. Kaggle user [Foxtrot](https://www.kaggle.com/zygmunt) for providing the [goodbooks dataset](https://www.kaggle.com/zygmunt/goodbooks-10k).
+1. Professor Liang Feng 
+2. [pspachtholz BookRecommender](https://github.com/pspachtholz/BookRecommender)
