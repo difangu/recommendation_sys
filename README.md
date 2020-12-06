@@ -1,23 +1,23 @@
 # Recommendation System
-# Devin Gu
+#### Devin Gu
 
 
-## Recommendater System
-### System I - Average Rating
+### Recommendater System
+#### System I - Average Rating
 
 * Algorithm Overview
 * Definition of "Highly-Rated"
 
 System I - Average Rating is simply ranked based on the average rating of each movie in user-selected genre. For example, if user selects "Adventure", the algorithm will search the highest average rating in the movie dataset group by that particular genre and return top 10 highest-rated movies. It's a simplistic while intuitive way to provide recommendation. In the example, I return top 10 movies for genre adventure. 
 
-### System I - Vote Count
+#### System I - Vote Count
 
 * Algorithm Overview
 * Definition of Popularity
 
 System I - Vote Count is another content-based filtering method. Here i define the popularity as the total number of vote counts for each movie. If the movie has more count, it implies more popularity is gained by the movie. The algorithm will simply aggregate all vote count for each movie and return the top 10 most-voted movies as recommendation. In the example, I return top 10 movies for genre action 
 
-### System II - UBCF & IBCF
+#### System II - UBCF & IBCF
 
 * UBCF Overview: User-Based Collaborative Filtering is built on the assumption that the users with similar taste will also give the similar rating to movies. Therefore, by asking users to enter some rating for some movies, the algorithm is able to fetch users with similar tastes and therefore guess/predict the missing ratings. 
 * UBCF Parameters: `parameter = list(normalize = 'Z-score',method = 'Cosine',nn = 25)` has been specified in the UBCF function. In this model, I used **Z-score normalization** that can also take variance into account. Similarity measure **Cosine** has been used with  **Nearest Neigbour of 25**.
