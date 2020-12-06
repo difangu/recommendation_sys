@@ -1,8 +1,8 @@
-# Recommendation System
+# Movie Recommendation System
 #### Devin Gu
 
 
-### Recommendater System
+### [Recommendater System](https://recommendationsysdevin.shinyapps.io/bookrecommender/)
 #### System I - Average Rating
 
 * Algorithm Overview
