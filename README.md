@@ -2,7 +2,7 @@
 #### Devin Gu
 
 
-### [Recommendater System](https://recommendationsysdevin.shinyapps.io/bookrecommender/)
+### [Click Here for Recommendater System Webpage](https://recommendationsysdevin.shinyapps.io/bookrecommender/)
 #### System I - Average Rating
 
 * Algorithm Overview
